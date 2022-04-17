@@ -63,6 +63,5 @@ function game() {
 //I am not passing parameters to playerSelection and computerSelection that the constructor of playRound() expects. playRound() gets no paramenter string values.
 //So, both variables are set to "undefined" and you have no condition in your code to handle that. 
 //Alternatively, remove it from the constructor if you want to use the globally declared variables of the same name.
-
     }
 };
