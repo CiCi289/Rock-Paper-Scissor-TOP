@@ -25,9 +25,9 @@ function playRound (playerSelection, computerSelection) {
         console.log (`Player wins the round!`);
         playerScore += 1;
 
-    // } else if (typeof(playerSelection) === 'undefined' && typeof(computerSelection) === "undefined") {
-    //     console.log('parameters are undefined'); 
-    //not passing parameter to playRound() problem log test
+        // } else if (typeof(playerSelection) === 'undefined' && typeof(computerSelection) === "undefined") {
+        //     console.log('parameters are undefined'); 
+        //not passing parameter to playRound() problem log test
     
     } else if (playerSelection === computerSelection) {
         console.log (`Round Draw!`);
